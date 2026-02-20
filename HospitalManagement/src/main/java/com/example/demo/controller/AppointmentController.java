@@ -16,7 +16,7 @@ public class AppointmentController {
 	@Autowired
 	AppointmentService appointSer;
 	
-	@PostMapping("appointment")
+	@PostMapping("appointmentt")
 	String addAppointment(@RequestBody Appointment a) {
 		
 		appointSer.addAppointment(a);
