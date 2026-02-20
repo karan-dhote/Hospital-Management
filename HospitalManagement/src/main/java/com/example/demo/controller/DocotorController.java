@@ -21,7 +21,7 @@ public class DocotorController {
 	String addDoctor(@RequestBody Doctor d) {
 		
 		ds.saveDoctor(d);
-		return "Docotr added";
+		return "saving the doctor";
 	}
 	
 	@DeleteMapping("Doctor/{id}")
